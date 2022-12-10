@@ -1,0 +1,38 @@
+root:x:0:0::/root:/usr/bin/zsh
+bin:x:1:1::/:/usr/bin/nologin
+daemon:x:2:2::/:/usr/bin/nologin
+mail:x:8:12::/var/spool/mail:/usr/bin/nologin
+ftp:x:14:11::/srv/ftp:/usr/bin/nologin
+http:x:33:33::/srv/http:/usr/bin/nologin
+nobody:x:65534:65534:Nobody:/:/usr/bin/nologin
+dbus:x:81:81:System Message Bus:/:/usr/bin/nologin
+systemd-coredump:x:981:981:systemd Core Dumper:/:/usr/bin/nologin
+systemd-network:x:980:980:systemd Network Management:/:/usr/bin/nologin
+systemd-oom:x:979:979:systemd Userspace OOM Killer:/:/usr/bin/nologin
+systemd-journal-remote:x:978:978:systemd Journal Remote:/:/usr/bin/nologin
+systemd-resolve:x:977:977:systemd Resolver:/:/usr/bin/nologin
+systemd-timesync:x:976:976:systemd Time Synchronization:/:/usr/bin/nologin
+tss:x:975:975:tss user for tpm2:/:/usr/bin/nologin
+uuidd:x:68:68::/:/usr/bin/nologin
+avahi:x:974:974:Avahi mDNS/DNS-SD daemon:/:/usr/bin/nologin
+polkitd:x:102:102:PolicyKit daemon:/:/usr/bin/nologin
+mrquant:x:1000:1000::/home/mrquant:/usr/bin/zsh
+sddm:x:973:973:Simple Desktop Display Manager:/var/lib/sddm:/usr/bin/nologin
+usbmux:x:140:140:usbmux user:/:/usr/bin/nologin
+git:x:972:972:git daemon user:/:/usr/bin/git-shell
+geoclue:x:971:971:Geoinformation service:/var/lib/geoclue:/usr/bin/nologin
+tor:x:43:43::/var/lib/tor:/usr/bin/nologin
+postgres:x:970:970:PostgreSQL user:/var/lib/postgres:/bin/bash
+dhcpcd:x:969:969:dhcpcd privilege separation:/:/usr/bin/nologin
+dhcp:x:968:968:DHCP daemon:/:/usr/bin/nologin
+mysql:x:967:967:MariaDB:/var/lib/mysql:/usr/bin/nologin
+rtkit:x:133:133:RealtimeKit:/proc:/usr/bin/nologin
+mongodb:x:966:966::/var/lib/mongodb:/usr/bin/nologin
+brltty:x:963:963:Braille Device Daemon:/var/lib/brltty:/usr/bin/nologin
+colord:x:962:962:Color management daemon:/var/lib/colord:/usr/bin/nologin
+flatpak:x:961:961:Flatpak system helper:/:/usr/bin/nologin
+gdm:x:120:120:Gnome Display Manager:/var/lib/gdm:/usr/bin/nologin
+libvirt-qemu:x:960:960:Libvirt QEMU user:/:/usr/bin/nologin
+qemu:x:959:959:QEMU user:/:/usr/bin/nologin
+saned:x:958:958:SANE daemon user:/:/usr/bin/nologin
+named:x:40:40:BIND DNS Server:/:/usr/bin/nologin
